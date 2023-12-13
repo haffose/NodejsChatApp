@@ -1,5 +1,5 @@
 # This stage installs our modules
-FROM mhart/alpine-node:12
+FROM mhart/alpine-node
 COPY . /app
 CMD node /app/index.js  
 EXPOSE 3700
