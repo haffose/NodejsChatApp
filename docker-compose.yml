@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   snake:
-    image: 'haffose/node-chat-app:lastest'  # Replace 'latest' with the specific tag if needed
+    image: 'haffose/node-chat-app:latest'  # Replace 'latest' with the specific tag if needed
     environment:
       - PORT=3700
     ports:
