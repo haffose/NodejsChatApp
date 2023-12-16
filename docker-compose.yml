@@ -1,10 +1,10 @@
 version: '3.3'
 services:
-  snake:
+  chat-app:
     image: 'haffose/node-chat-app:latest'  # Replace 'latest' with the specific tag if needed
     environment:
-      - "PORT=3700"
+      - "PORT=3000"
     ports:
-      - "80:3700"
+      - "80:3000"
     volumes:
       - ./:/app
